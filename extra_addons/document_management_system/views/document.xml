@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_document_form" model="ir.ui.view">
+        <field name="name">document.form</field>
+        <field name="model">document</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="title"/>
+                        <field name="description"/>
+                        <field name="company"/>
+                        <field name="employee" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_document_tree" model="ir.ui.view">
+        <field name="name">document.tree</field>
+        <field name="model">document</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="title"/>
+                <field name="description"/>
+                <field name="company"/>
+                <field name="employee" widget="many2many_tags"/>
+                <field name="create_uid"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_document" model="ir.actions.act_window">
+        <field name="name">Document</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">document</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_documents"
+              name="Documents"
+              parent="menu_manage_documents"
+              action="action_document"
+              sequence="10"/>
+
+</odoo>

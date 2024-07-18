@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="menu_document_management_system_root"
+              name="Document Management System"
+              sequence="10"/>
+
+    <menuitem id="menu_manage_documents"
+              name="Manage Documents"
+              parent="menu_document_management_system_root"
+              sequence="10"/>
+
+    <menuitem id="menu_manage_employees"
+              name="Manage Employees"
+              parent="menu_document_management_system_root"
+              sequence="10"/>
+
+</odoo>
