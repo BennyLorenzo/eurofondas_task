@@ -17,6 +17,8 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
 
+print(models.document.Document._name)
+print(models.employee.Employee._name)
 print("I would test some more, if I could...")
 # TestStringMethods.test_upper(models.document)
 # TestStringMethods.test_upper(models.document)
