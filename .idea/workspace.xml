@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca8dd75-9927-4062-ad91-663b2176201c" name="Changes" comment="Document Management System task v.1.0.0" />
+    <list default="true" id="0ca8dd75-9927-4062-ad91-663b2176201c" name="Changes" comment="Document Management System task v.1.0.0">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_addons/document_management_system/report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_addons/document_management_system/report/document_details_template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_addons/document_management_system/report/report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_addons/document_management_system/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_addons/document_management_system/tests/simple_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_addons/document_management_system/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_addons/document_management_system/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_addons/document_management_system/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_addons/document_management_system/__manifest__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BennyLorenzo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BennyLorenzo/eurofondas_task.git&quot;,
+    &quot;accountId&quot;: &quot;9a484e89-ae57-41b4-8378-7298f3e19c5b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -31,16 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.odoo-bin.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests in simple_test.py.executor": "Run",
+    "Python.odoo-bin.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/LB/Documents/Odoo/eurofondas_task/extra_addons/document_management_system/report",
+    "settings.editor.selected.configurable": "preferences.sourceCode.XML"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LB\Documents\Odoo\eurofondas_task\extra_addons\document_management_system\report" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.odoo-bin">
     <configuration name="odoo-bin" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="eurofondas_task" />
       <option name="ENV_FILES" value="" />
@@ -64,6 +95,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in simple_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="eurofondas_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extra_addons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/extra_addons/document_management_system/tests/simple_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in simple_test.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -97,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721313000676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Document Management System task v.1.0.0">
+      <option name="closed" value="true" />
+      <created>1721313166472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721313166472</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Document Management System task v.1.0.0">
+      <option name="closed" value="true" />
+      <created>1721313341326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721313341326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

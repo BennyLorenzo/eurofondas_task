@@ -8,6 +8,8 @@
             'security/ir.model.access.csv',
             'views/menu.xml',
             'views/document.xml',
-            'views/employee.xml'
+            'views/employee.xml',
+            'report/report.xml',
+            'report/document_details_template.xml'
     ]
 }
