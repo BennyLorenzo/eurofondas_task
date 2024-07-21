@@ -11,4 +11,15 @@
         <field name="binding_type">report</field>
     </record>
 
+    <record id="action_report_documents" model="ir.actions.report">
+        <field name="name">Document Report</field>
+        <field name="model">document</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">document_management_system.report_document_detail</field>
+        <field name="report_file">document_management_system.report_document_detail</field>
+        <field name="binding_model_id" ref="model_document_report_wizard"/>
+        <field name="binding_type">report</field>
+    </record>
+
+
 </odoo>

@@ -6,6 +6,7 @@
     'category':'Documents',
     'data': [
             'security/ir.model.access.csv',
+            'wizard/document_report_view.xml',
             'views/menu.xml',
             'views/document.xml',
             'views/employee.xml',

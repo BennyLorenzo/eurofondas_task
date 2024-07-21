@@ -15,4 +15,15 @@
               parent="menu_document_management_system_root"
               sequence="10"/>
 
+    <menuitem id="menu_reporting"
+              name="Reporting"
+              parent="menu_document_management_system_root"
+              sequence="10"/>
+
+    <menuitem id="menu_document_report"
+              name="Documents"
+              parent="menu_reporting"
+              action="action_report_all_documents"
+              sequence="10"/>
+
 </odoo>
